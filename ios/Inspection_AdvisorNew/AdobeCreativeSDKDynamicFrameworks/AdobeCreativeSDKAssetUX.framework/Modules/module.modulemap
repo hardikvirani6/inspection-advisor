@@ -1,0 +1,6 @@
+framework module AdobeCreativeSDKAssetUX {
+  umbrella header "AdobeCreativeSDKAssetUX.h"
+
+  export *
+  module * { export * }
+}

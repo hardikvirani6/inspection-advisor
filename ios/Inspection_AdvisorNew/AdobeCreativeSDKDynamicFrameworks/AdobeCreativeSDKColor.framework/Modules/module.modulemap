@@ -1,0 +1,6 @@
+framework module AdobeCreativeSDKColor {
+  umbrella header "AdobeCreativeSDKColor.h"
+
+  export *
+  module * { export * }
+}

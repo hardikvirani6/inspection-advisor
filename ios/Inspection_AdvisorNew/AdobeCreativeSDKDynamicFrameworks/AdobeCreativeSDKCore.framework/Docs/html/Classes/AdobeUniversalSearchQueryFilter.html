@@ -1,0 +1,958 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AdobeUniversalSearchQueryFilter Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AdobeCreativeSDKCore.framework </a></h1>
+				<a id="developerHome" href="../index.html">Adobe Systems Incorporated</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AdobeUniversalSearchQueryFilter Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/applicationProducts">&nbsp;&nbsp;&nbsp;&nbsp;applicationProducts</option>
+	
+	<option value="//api/name/creatorTypes">&nbsp;&nbsp;&nbsp;&nbsp;creatorTypes</option>
+	
+	<option value="//api/name/imagesByColor">&nbsp;&nbsp;&nbsp;&nbsp;imagesByColor</option>
+	
+	<option value="//api/name/imagesByNumberOfPixelsInRange">&nbsp;&nbsp;&nbsp;&nbsp;imagesByNumberOfPixelsInRange</option>
+	
+	<option value="//api/name/mediaTypes">&nbsp;&nbsp;&nbsp;&nbsp;mediaTypes</option>
+	
+	<option value="//api/name/safeSearch">&nbsp;&nbsp;&nbsp;&nbsp;safeSearch</option>
+	
+	<option value="//api/name/textQuery">&nbsp;&nbsp;&nbsp;&nbsp;textQuery</option>
+	
+	<option value="//api/name/videosContainDurationInRange">&nbsp;&nbsp;&nbsp;&nbsp;videosContainDurationInRange</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/filter">&nbsp;&nbsp;&nbsp;&nbsp;+ filter</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/creationDateRange:endDateInterval:">&nbsp;&nbsp;&nbsp;&nbsp;- creationDateRange:endDateInterval:</option>
+	
+	<option value="//api/name/imagesByAspectRatioRange:max:">&nbsp;&nbsp;&nbsp;&nbsp;- imagesByAspectRatioRange:max:</option>
+	
+	<option value="//api/name/lastModificationDateRange:endDateInterval:">&nbsp;&nbsp;&nbsp;&nbsp;- lastModificationDateRange:endDateInterval:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/applicationProducts">applicationProducts</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/creatorTypes">creatorTypes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/imagesByColor">imagesByColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/imagesByNumberOfPixelsInRange">imagesByNumberOfPixelsInRange</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mediaTypes">mediaTypes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/safeSearch">safeSearch</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/textQuery">textQuery</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/videosContainDurationInRange">videosContainDurationInRange</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/filter">filter</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/creationDateRange:endDateInterval:">creationDateRange:endDateInterval:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/imagesByAspectRatioRange:max:">imagesByAspectRatioRange:max:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lastModificationDateRange:endDateInterval:">lastModificationDateRange:endDateInterval:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AdobeUniversalSearchQueryFilter Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AdobeUniversalSearchQueryFilter Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AdobeUniversalSearchQueryFilter.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>AdobeUniversalSearchQueryFilter is used to build a <a href="#//api/name/filter">filter</a> object for use in the query .</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/filter">+&nbsp;filter</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mediaTypes">&nbsp;&nbsp;mediaTypes</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/safeSearch">&nbsp;&nbsp;safeSearch</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/textQuery">&nbsp;&nbsp;textQuery</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/imagesByColor">&nbsp;&nbsp;imagesByColor</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/imagesByNumberOfPixelsInRange">&nbsp;&nbsp;imagesByNumberOfPixelsInRange</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/videosContainDurationInRange">&nbsp;&nbsp;videosContainDurationInRange</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/applicationProducts">&nbsp;&nbsp;applicationProducts</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/creatorTypes">&nbsp;&nbsp;creatorTypes</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lastModificationDateRange:endDateInterval:">&ndash;&nbsp;lastModificationDateRange:endDateInterval:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/creationDateRange:endDateInterval:">&ndash;&nbsp;creationDateRange:endDateInterval:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/imagesByAspectRatioRange:max:">&ndash;&nbsp;imagesByAspectRatioRange:max:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/applicationProducts" title="applicationProducts"></a>
+	<h3 class="subsubtitle method-title">applicationProducts</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Search for all assets that was created by the array of AdobeQueryApplicableType</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (copy, nonatomic, nullable) NSArray&lt;AdobeQueryApplicableType&gt; *applicationProducts</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Search for all assets that was created by the array of AdobeQueryApplicableType</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobeUniversalSearchQueryFilter.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/creatorTypes" title="creatorTypes"></a>
+	<h3 class="subsubtitle method-title">creatorTypes</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Search for all assets that was created by the array of AdobeQueryCreatorType</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (copy, nonatomic, nullable) NSArray&lt;AdobeQueryCreatorType&gt; *creatorTypes</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Search for all assets that was created by the array of AdobeQueryCreatorType</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobeUniversalSearchQueryFilter.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/imagesByColor" title="imagesByColor"></a>
+	<h3 class="subsubtitle method-title">imagesByColor</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adobe Stock only
+Search for all images that contains the specified color, example &ldquo;#AAAFFF&rdquo;</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (copy, nonatomic, nullable) NSString *imagesByColor</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adobe Stock only
+Search for all images that contains the specified color, example &ldquo;#AAAFFF&rdquo;</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobeUniversalSearchQueryFilter.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/imagesByNumberOfPixelsInRange" title="imagesByNumberOfPixelsInRange"></a>
+	<h3 class="subsubtitle method-title">imagesByNumberOfPixelsInRange</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Search for images that contains the number of pixels in a specified range
+Pixel size is defined as multiplication of height and width.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) NSRange imagesByNumberOfPixelsInRange</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Search for images that contains the number of pixels in a specified range
+Pixel size is defined as multiplication of height and width.</p>
+
+<p>Example: If height is 1,920 pixel and width is 1,080 pixel, then pixel size is 2,073,600 ≈ 2 mega pixels.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobeUniversalSearchQueryFilter.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mediaTypes" title="mediaTypes"></a>
+	<h3 class="subsubtitle method-title">mediaTypes</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>An array of AdobeQueryMediaType</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (copy, nonatomic, nullable) NSArray&lt;AdobeQueryMediaType&gt; *mediaTypes</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>An array of AdobeQueryMediaType</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobeUniversalSearchQueryFilter.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/safeSearch" title="safeSearch"></a>
+	<h3 class="subsubtitle method-title">safeSearch</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether search <a href="#//api/name/filter">filter</a> by safe search in Adobe Stock only
+If YES, the search will exclude offensive contents, NO otherwise.
+Default is YES</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) BOOL safeSearch</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether search <a href="#//api/name/filter">filter</a> by safe search in Adobe Stock only
+If YES, the search will exclude offensive contents, NO otherwise.
+Default is YES</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobeUniversalSearchQueryFilter.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/textQuery" title="textQuery"></a>
+	<h3 class="subsubtitle method-title">textQuery</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The text query to search</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (copy, nonatomic, nonnull) NSString *textQuery</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The text query to search</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobeUniversalSearchQueryFilter.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/videosContainDurationInRange" title="videosContainDurationInRange"></a>
+	<h3 class="subsubtitle method-title">videosContainDurationInRange</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adobe Stock only
+Search for videos that contains the duration&rsquo;s range (in seconds)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) NSRange videosContainDurationInRange</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adobe Stock only
+Search for videos that contains the duration&rsquo;s range (in seconds)</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobeUniversalSearchQueryFilter.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/filter" title="filter"></a>
+	<h3 class="subsubtitle method-title">filter</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Construct a filter object to filter query.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (nonnull AdobeUniversalSearchQueryFilter *)filter</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Construct a filter object to filter query.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobeUniversalSearchQueryFilter.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/creationDateRange:endDateInterval:" title="creationDateRange:endDateInterval:"></a>
+	<h3 class="subsubtitle method-title">creationDateRange:endDateInterval:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Search for any asset that contains the created date in Creative Cloud
+or uploaded date in Adobe Stock in the specified range</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)creationDateRange:(NSTimeInterval)<em>startDateInterval</em> endDateInterval:(NSTimeInterval)<em>endDateInterval</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>startDateInterval</em></dt>
+			<dd><p>the start date in range</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>endDateInterval</em></dt>
+			<dd><p>the end date in range</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Search for any asset that contains the created date in Creative Cloud
+or uploaded date in Adobe Stock in the specified range</p><div class="note"><p><strong>Note:</strong> an exception will be throw if startDate is later than endDate</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobeUniversalSearchQueryFilter.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/imagesByAspectRatioRange:max:" title="imagesByAspectRatioRange:max:"></a>
+	<h3 class="subsubtitle method-title">imagesByAspectRatioRange:max:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Search for any image that contains the specified aspect ratio (width / height) range</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)imagesByAspectRatioRange:(CGFloat)<em>min</em> max:(CGFloat)<em>max</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>min</em></dt>
+			<dd><p>the minimum aspect ratio in range</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>max</em></dt>
+			<dd><p>the maximum aspect ratio in range</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Search for any image that contains the specified aspect ratio (width / height) range</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobeUniversalSearchQueryFilter.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lastModificationDateRange:endDateInterval:" title="lastModificationDateRange:endDateInterval:"></a>
+	<h3 class="subsubtitle method-title">lastModificationDateRange:endDateInterval:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adobe Creative Cloud only
+Search for any asset that contains the modification date in specified range</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)lastModificationDateRange:(NSTimeInterval)<em>startDateInterval</em> endDateInterval:(NSTimeInterval)<em>endDateInterval</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>startDateInterval</em></dt>
+			<dd><p>the start date in range</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>endDateInterval</em></dt>
+			<dd><p>the end date in range</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Adobe Creative Cloud only
+Search for any asset that contains the modification date in specified range</p><div class="note"><p><strong>Note:</strong> an exception will be throw if startDate is later than endDate</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobeUniversalSearchQueryFilter.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2017 Adobe Systems Incorporated. All rights reserved. (Last updated: 2017-11-01)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

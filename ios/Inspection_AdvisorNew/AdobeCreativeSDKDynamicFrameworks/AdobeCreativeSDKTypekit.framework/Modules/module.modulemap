@@ -1,0 +1,6 @@
+framework module AdobeCreativeSDKTypekit {
+  umbrella header "AdobeCreativeSDKTypekit.h"
+
+  export *
+  module * { export * }
+}

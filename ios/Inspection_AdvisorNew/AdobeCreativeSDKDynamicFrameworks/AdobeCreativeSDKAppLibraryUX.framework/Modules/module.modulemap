@@ -1,0 +1,6 @@
+framework module AdobeCreativeSDKAppLibraryUX {
+  umbrella header "AdobeCreativeSDKAppLibraryUX.h"
+
+  export *
+  module * { export * }
+}
