@@ -1,0 +1,1933 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>AdobePhotoshopLayer Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">AdobeCreativeSDKAssetModel.framework </a></h1>
+				<a id="developerHome" href="../index.html">Adobe Systems Incorporated</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">AdobePhotoshopLayer Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/bounds">&nbsp;&nbsp;&nbsp;&nbsp;bounds</option>
+	
+	<option value="//api/name/childNodes">&nbsp;&nbsp;&nbsp;&nbsp;childNodes</option>
+	
+	<option value="//api/name/fillColor">&nbsp;&nbsp;&nbsp;&nbsp;fillColor</option>
+	
+	<option value="//api/name/hasPixelMask">&nbsp;&nbsp;&nbsp;&nbsp;hasPixelMask</option>
+	
+	<option value="//api/name/hasVectorMask">&nbsp;&nbsp;&nbsp;&nbsp;hasVectorMask</option>
+	
+	<option value="//api/name/layerId">&nbsp;&nbsp;&nbsp;&nbsp;layerId</option>
+	
+	<option value="//api/name/name">&nbsp;&nbsp;&nbsp;&nbsp;name</option>
+	
+	<option value="//api/name/pixelLayerBounds">&nbsp;&nbsp;&nbsp;&nbsp;pixelLayerBounds</option>
+	
+	<option value="//api/name/pixelLayerComponent">&nbsp;&nbsp;&nbsp;&nbsp;pixelLayerComponent</option>
+	
+	<option value="//api/name/pixelMaskBounds">&nbsp;&nbsp;&nbsp;&nbsp;pixelMaskBounds</option>
+	
+	<option value="//api/name/pixelMaskComponent">&nbsp;&nbsp;&nbsp;&nbsp;pixelMaskComponent</option>
+	
+	<option value="//api/name/pixelMaskDensity">&nbsp;&nbsp;&nbsp;&nbsp;pixelMaskDensity</option>
+	
+	<option value="//api/name/pixelMaskEnabled">&nbsp;&nbsp;&nbsp;&nbsp;pixelMaskEnabled</option>
+	
+	<option value="//api/name/pixelMaskFeather">&nbsp;&nbsp;&nbsp;&nbsp;pixelMaskFeather</option>
+	
+	<option value="//api/name/pixelMaskLinked">&nbsp;&nbsp;&nbsp;&nbsp;pixelMaskLinked</option>
+	
+	<option value="//api/name/shapeBezierPath">&nbsp;&nbsp;&nbsp;&nbsp;shapeBezierPath</option>
+	
+	<option value="//api/name/smartObjectBottomLeftPoint">&nbsp;&nbsp;&nbsp;&nbsp;smartObjectBottomLeftPoint</option>
+	
+	<option value="//api/name/smartObjectBottomRightPoint">&nbsp;&nbsp;&nbsp;&nbsp;smartObjectBottomRightPoint</option>
+	
+	<option value="//api/name/smartObjectComponent">&nbsp;&nbsp;&nbsp;&nbsp;smartObjectComponent</option>
+	
+	<option value="//api/name/smartObjectLinked">&nbsp;&nbsp;&nbsp;&nbsp;smartObjectLinked</option>
+	
+	<option value="//api/name/smartObjectTopLeftPoint">&nbsp;&nbsp;&nbsp;&nbsp;smartObjectTopLeftPoint</option>
+	
+	<option value="//api/name/smartObjectTopRightPoint">&nbsp;&nbsp;&nbsp;&nbsp;smartObjectTopRightPoint</option>
+	
+	<option value="//api/name/solidFillColor">&nbsp;&nbsp;&nbsp;&nbsp;solidFillColor</option>
+	
+	<option value="//api/name/textLayerBounds">&nbsp;&nbsp;&nbsp;&nbsp;textLayerBounds</option>
+	
+	<option value="//api/name/textLayerRawText">&nbsp;&nbsp;&nbsp;&nbsp;textLayerRawText</option>
+	
+	<option value="//api/name/textLayerStyleRanges">&nbsp;&nbsp;&nbsp;&nbsp;textLayerStyleRanges</option>
+	
+	<option value="//api/name/type">&nbsp;&nbsp;&nbsp;&nbsp;type</option>
+	
+	<option value="//api/name/typeString">&nbsp;&nbsp;&nbsp;&nbsp;typeString</option>
+	
+	<option value="//api/name/vectorMaskBezierPath">&nbsp;&nbsp;&nbsp;&nbsp;vectorMaskBezierPath</option>
+	
+	<option value="//api/name/vectorMaskFilled">&nbsp;&nbsp;&nbsp;&nbsp;vectorMaskFilled</option>
+	
+	<option value="//api/name/visible">&nbsp;&nbsp;&nbsp;&nbsp;visible</option>
+	
+	
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Pixel Layer Properties">Pixel Layer Properties</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Pixel Mask">Pixel Mask</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Group Layer Properties">Group Layer Properties</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Fill/Shape Layer Properties">Fill/Shape Layer Properties</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Text Layer Properties">Text Layer Properties</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Smart Object Properties">Smart Object Properties</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bounds">bounds</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/childNodes">childNodes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fillColor">fillColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hasPixelMask">hasPixelMask</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hasVectorMask">hasVectorMask</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/layerId">layerId</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/name">name</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pixelLayerBounds">pixelLayerBounds</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pixelLayerComponent">pixelLayerComponent</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pixelMaskBounds">pixelMaskBounds</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pixelMaskComponent">pixelMaskComponent</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pixelMaskDensity">pixelMaskDensity</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pixelMaskEnabled">pixelMaskEnabled</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pixelMaskFeather">pixelMaskFeather</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pixelMaskLinked">pixelMaskLinked</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shapeBezierPath">shapeBezierPath</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/smartObjectBottomLeftPoint">smartObjectBottomLeftPoint</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/smartObjectBottomRightPoint">smartObjectBottomRightPoint</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/smartObjectComponent">smartObjectComponent</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/smartObjectLinked">smartObjectLinked</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/smartObjectTopLeftPoint">smartObjectTopLeftPoint</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/smartObjectTopRightPoint">smartObjectTopRightPoint</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/solidFillColor">solidFillColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/textLayerBounds">textLayerBounds</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/textLayerRawText">textLayerRawText</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/textLayerStyleRanges">textLayerStyleRanges</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/type">type</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/typeString">typeString</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/vectorMaskBezierPath">vectorMaskBezierPath</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/vectorMaskFilled">vectorMaskFilled</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/visible">visible</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="AdobePhotoshopLayer Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">AdobePhotoshopLayer Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">AdobePhotoshopLayer.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Represents a layer within a Photoshop Document.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/layerId">&nbsp;&nbsp;layerId</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/name">&nbsp;&nbsp;name</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/type">&nbsp;&nbsp;type</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/typeString">&nbsp;&nbsp;typeString</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bounds">&nbsp;&nbsp;bounds</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/visible">&nbsp;&nbsp;visible</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Pixel Layer Properties" name="task_Pixel Layer Properties"></a>
+						<h3 class="subsubtitle task-title">Pixel Layer Properties</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pixelLayerBounds">&nbsp;&nbsp;pixelLayerBounds</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pixelLayerComponent">&nbsp;&nbsp;pixelLayerComponent</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Pixel Mask" name="task_Pixel Mask"></a>
+						<h3 class="subsubtitle task-title">Pixel Mask</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hasPixelMask">&nbsp;&nbsp;hasPixelMask</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pixelMaskBounds">&nbsp;&nbsp;pixelMaskBounds</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pixelMaskComponent">&nbsp;&nbsp;pixelMaskComponent</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pixelMaskLinked">&nbsp;&nbsp;pixelMaskLinked</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pixelMaskEnabled">&nbsp;&nbsp;pixelMaskEnabled</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pixelMaskDensity">&nbsp;&nbsp;pixelMaskDensity</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pixelMaskFeather">&nbsp;&nbsp;pixelMaskFeather</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hasVectorMask">&nbsp;&nbsp;hasVectorMask</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/vectorMaskFilled">&nbsp;&nbsp;vectorMaskFilled</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/vectorMaskBezierPath">&nbsp;&nbsp;vectorMaskBezierPath</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Group Layer Properties" name="task_Group Layer Properties"></a>
+						<h3 class="subsubtitle task-title">Group Layer Properties</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/childNodes">&nbsp;&nbsp;childNodes</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Fill/Shape Layer Properties" name="task_Fill/Shape Layer Properties"></a>
+						<h3 class="subsubtitle task-title">Fill/Shape Layer Properties</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fillColor">&nbsp;&nbsp;fillColor</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/solidFillColor">&nbsp;&nbsp;solidFillColor</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shapeBezierPath">&nbsp;&nbsp;shapeBezierPath</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Text Layer Properties" name="task_Text Layer Properties"></a>
+						<h3 class="subsubtitle task-title">Text Layer Properties</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/textLayerRawText">&nbsp;&nbsp;textLayerRawText</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/textLayerBounds">&nbsp;&nbsp;textLayerBounds</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/textLayerStyleRanges">&nbsp;&nbsp;textLayerStyleRanges</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Smart Object Properties" name="task_Smart Object Properties"></a>
+						<h3 class="subsubtitle task-title">Smart Object Properties</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/smartObjectLinked">&nbsp;&nbsp;smartObjectLinked</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/smartObjectTopLeftPoint">&nbsp;&nbsp;smartObjectTopLeftPoint</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/smartObjectTopRightPoint">&nbsp;&nbsp;smartObjectTopRightPoint</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/smartObjectBottomLeftPoint">&nbsp;&nbsp;smartObjectBottomLeftPoint</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/smartObjectBottomRightPoint">&nbsp;&nbsp;smartObjectBottomRightPoint</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/smartObjectComponent">&nbsp;&nbsp;smartObjectComponent</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/bounds" title="bounds"></a>
+	<h3 class="subsubtitle method-title">bounds</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Bounds of the layer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) CGRect bounds</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Bounds of the layer.</p><div class="note"><p><strong>Note:</strong> The bounds may have negative values and be outside of the area of the PSD document canvas.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/childNodes" title="childNodes"></a>
+	<h3 class="subsubtitle method-title">childNodes</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Child nodes for the receiver structured as they appear in the PSD document, i.e. all nesting
+levels of layers and other child layer groups are preserved.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, nullable) NSArray *childNodes</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Child nodes for the receiver structured as they appear in the PSD document, i.e. all nesting
+levels of layers and other child layer groups are preserved.</p><div class="note"><p><strong>Note:</strong> This value is only valid if the @c <a href="#//api/name/type">type</a> of the layer is
+@c AdobePhotoshopLayerTypeLayerGroup.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fillColor" title="fillColor"></a>
+	<h3 class="subsubtitle method-title">fillColor</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The fill color of the layer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, nullable) AdobePhotoshopRGBColor *fillColor</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The fill color of the layer.</p><div class="note"><p><strong>Note:</strong> This value will only be valid if the <a href="#//api/name/type">type</a> of the receiver is
+@c AdobePhotoshopLayerTypeFill or @c AdobePhotoshopLayerTypeShape, and if the layer has a solid
+(non-gradient) fill color.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/solidFillColor">@property solidFillColor</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hasPixelMask" title="hasPixelMask"></a>
+	<h3 class="subsubtitle method-title">hasPixelMask</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether the receiver has a pixel mask. If so, all Pixel Mask related property values will
+retrieve relevant information about the pixel mask.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) BOOL hasPixelMask</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether the receiver has a pixel mask. If so, all Pixel Mask related property values will
+retrieve relevant information about the pixel mask.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hasVectorMask" title="hasVectorMask"></a>
+	<h3 class="subsubtitle method-title">hasVectorMask</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>@<a href="#//api/name/name">name</a> Vector Mask</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) BOOL hasVectorMask</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>@<a href="#//api/name/name">name</a> Vector Mask</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/layerId" title="layerId"></a>
+	<h3 class="subsubtitle method-title">layerId</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Unique ID that identifies each layer uniquely in the PSD documents.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) NSInteger layerId</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Unique ID that identifies each layer uniquely in the PSD documents.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/name" title="name"></a>
+	<h3 class="subsubtitle method-title">name</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Name of the layer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, nullable) NSString *name</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Name of the layer.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pixelLayerBounds" title="pixelLayerBounds"></a>
+	<h3 class="subsubtitle method-title">pixelLayerBounds</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Bounds of the pixel layer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) CGRect pixelLayerBounds</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Bounds of the pixel layer.</p><div class="note"><p><strong>Note:</strong> This value will only be valid if the <a href="#//api/name/type">type</a> of the receiver is
+@c AdobePhotoshopLayerTypePixel.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pixelLayerComponent" title="pixelLayerComponent"></a>
+	<h3 class="subsubtitle method-title">pixelLayerComponent</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The component object for the pixel layer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, nullable) AdobePhotoshopLayerComponent *pixelLayerComponent</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The component object for the pixel layer.</p><div class="note"><p><strong>Note:</strong> This value will only be valid if the <a href="#//api/name/type">type</a> of the receiver is
+@c AdobePhotoshopLayerTypePixel.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pixelMaskBounds" title="pixelMaskBounds"></a>
+	<h3 class="subsubtitle method-title">pixelMaskBounds</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The <a href="#//api/name/bounds">bounds</a> of the pixel mask.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) CGRect pixelMaskBounds</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The <a href="#//api/name/bounds">bounds</a> of the pixel mask.</p><div class="note"><p><strong>Note:</strong> Note that this value does not necessarily have to be the same size or be at the same
+location as the Photoshop document&rsquo;s <a href="#//api/name/bounds">bounds</a>.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pixelMaskComponent" title="pixelMaskComponent"></a>
+	<h3 class="subsubtitle method-title">pixelMaskComponent</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The pixel mask component of the layer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, nullable) AdobePhotoshopLayerComponent *pixelMaskComponent</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The pixel mask component of the layer.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pixelMaskDensity" title="pixelMaskDensity"></a>
+	<h3 class="subsubtitle method-title">pixelMaskDensity</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Density percentage for the pixel mask. This value ranges from 0 to 100. The default value is 100.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) CGFloat pixelMaskDensity</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Density percentage for the pixel mask. This value ranges from 0 to 100. The default value is 100.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pixelMaskEnabled" title="pixelMaskEnabled"></a>
+	<h3 class="subsubtitle method-title">pixelMaskEnabled</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether the pixel mask is enabled. Default is @c YES.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, getter=isPixelMaskEnabled) BOOL pixelMaskEnabled</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether the pixel mask is enabled. Default is @c YES.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pixelMaskFeather" title="pixelMaskFeather"></a>
+	<h3 class="subsubtitle method-title">pixelMaskFeather</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Feather value for pixel mask in pixels. This value ranges from 0 to 1000. The default value is 0.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) CGFloat pixelMaskFeather</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Feather value for pixel mask in pixels. This value ranges from 0 to 1000. The default value is 0.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pixelMaskLinked" title="pixelMaskLinked"></a>
+	<h3 class="subsubtitle method-title">pixelMaskLinked</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether the pixel mask is linked. Default is @c YES.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, getter=isPixelMaskLinked) BOOL pixelMaskLinked</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether the pixel mask is linked. Default is @c YES.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shapeBezierPath" title="shapeBezierPath"></a>
+	<h3 class="subsubtitle method-title">shapeBezierPath</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The bezier path for the shape layer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, nullable) UIBezierPath *shapeBezierPath</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The bezier path for the shape layer.</p><div class="note"><p><strong>Note:</strong> This property is valid for @c AdobePhotoshopLayerTypeShape layer types only.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/smartObjectBottomLeftPoint" title="smartObjectBottomLeftPoint"></a>
+	<h3 class="subsubtitle method-title">smartObjectBottomLeftPoint</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The bottom-left point at which the Smart Object resides.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) CGPoint smartObjectBottomLeftPoint</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The bottom-left point at which the Smart Object resides.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/smartObjectBottomRightPoint" title="smartObjectBottomRightPoint"></a>
+	<h3 class="subsubtitle method-title">smartObjectBottomRightPoint</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The bottom-right point at which the Smart Object resides.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) CGPoint smartObjectBottomRightPoint</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The bottom-right point at which the Smart Object resides.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/smartObjectComponent" title="smartObjectComponent"></a>
+	<h3 class="subsubtitle method-title">smartObjectComponent</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Smart object component that has information about an embedded (non-linked) smart object.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, nullable) AdobePhotoshopLayerComponent *smartObjectComponent</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Smart object component that has information about an embedded (non-linked) smart object.</p><div class="note"><p><strong>Note:</strong> This property is valid only when the @c <a href="#//api/name/type">type</a> of the receiver is
+@c AdobePhotoshopLayerTypeSmartObject.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/smartObjectLinked" title="smartObjectLinked"></a>
+	<h3 class="subsubtitle method-title">smartObjectLinked</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether the Smart Object is linked.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, getter=isSmartObjectLinked) BOOL smartObjectLinked</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether the Smart Object is linked.</p><div class="note"><p><strong>Note:</strong> This property is valid only when the @c <a href="#//api/name/type">type</a> of the receiver is
+@c AdobePhotoshopLayerTypeSmartObject.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/smartObjectTopLeftPoint" title="smartObjectTopLeftPoint"></a>
+	<h3 class="subsubtitle method-title">smartObjectTopLeftPoint</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The top-left point at which the Smart Object resides.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) CGPoint smartObjectTopLeftPoint</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The top-left point at which the Smart Object resides.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/smartObjectTopRightPoint" title="smartObjectTopRightPoint"></a>
+	<h3 class="subsubtitle method-title">smartObjectTopRightPoint</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The top-right point at which the Smart Object resides.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) CGPoint smartObjectTopRightPoint</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The top-right point at which the Smart Object resides.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/solidFillColor" title="solidFillColor"></a>
+	<h3 class="subsubtitle method-title">solidFillColor</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether the fill or shape layer has a solid color.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, getter=isFillColorSolid) BOOL solidFillColor</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether the fill or shape layer has a solid color.</p><div class="note"><p><strong>Note:</strong> This property is valid for both @c AdobePhotoshopLayerTypeFill and
+@c AdobePhotoshopLayerTypeShape layer types.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection see-also-section">
+		<h4 class="method-subtitle">See Also</h4>
+		<ul>
+			
+			<li><code><p><a href="#//api/name/fillColor">@property fillColor</a></p></code></li>
+			
+		</ul>
+	</div>
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/textLayerBounds" title="textLayerBounds"></a>
+	<h3 class="subsubtitle method-title">textLayerBounds</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Bounding box of the text layer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) CGRect textLayerBounds</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Bounding box of the text layer.</p><div class="note"><p><strong>Note:</strong> This value is only valid if the <a href="#//api/name/type">type</a> of the receive is @c AdobePhotoshopLayerTypeText.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/textLayerRawText" title="textLayerRawText"></a>
+	<h3 class="subsubtitle method-title">textLayerRawText</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Raw string value for a text layer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, nullable) NSString *textLayerRawText</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Raw string value for a text layer.</p><div class="note"><p><strong>Note:</strong> This value is only valid if the <a href="#//api/name/type">type</a> of the receiver is @c AdobePhotoshopLayerTypeText.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/textLayerStyleRanges" title="textLayerStyleRanges"></a>
+	<h3 class="subsubtitle method-title">textLayerStyleRanges</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Contains one more more <a href="../Classes/AdobePhotoshopTextLayerRange.html">AdobePhotoshopTextLayerRange</a> objects, each of which, describes the text
+styles for an arbitrary range of text.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, nullable) NSArray&lt;AdobePhotoshopTextLayerRange*&gt; *textLayerStyleRanges</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Contains one more more <a href="../Classes/AdobePhotoshopTextLayerRange.html">AdobePhotoshopTextLayerRange</a> objects, each of which, describes the text
+styles for an arbitrary range of text.</p><div class="note"><p><strong>Note:</strong> This value is only valid if the <a href="#//api/name/type">type</a> of the receive is @c AdobePhotoshopLayerTypeText.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/type" title="type"></a>
+	<h3 class="subsubtitle method-title">type</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Type of the layer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic) AdobePhotoshopLayerType type</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Type of the layer.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/typeString" title="typeString"></a>
+	<h3 class="subsubtitle method-title">typeString</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Retrieves a string value for the layer <a href="#//api/name/type">type</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, nonnull) NSString *typeString</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Retrieves a string value for the layer <a href="#//api/name/type">type</a>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/vectorMaskBezierPath" title="vectorMaskBezierPath"></a>
+	<h3 class="subsubtitle method-title">vectorMaskBezierPath</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The bezier path of the vector mask if the vector mask contains a path.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, nullable) UIBezierPath *vectorMaskBezierPath</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>The bezier path of the vector mask if the vector mask contains a path.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/vectorMaskFilled" title="vectorMaskFilled"></a>
+	<h3 class="subsubtitle method-title">vectorMaskFilled</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether the vector mask has a fill.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, getter=isVectorMaskFilled) BOOL vectorMaskFilled</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether the vector mask has a fill.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/visible" title="visible"></a>
+	<h3 class="subsubtitle method-title">visible</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Whether the layer is visible. Each layer is visible by default.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (readonly, nonatomic, getter=isVisible) BOOL visible</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Whether the layer is visible. Each layer is visible by default.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">AdobePhotoshopLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2017 Adobe Systems Incorporated. All rights reserved. (Last updated: 2017-11-01)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

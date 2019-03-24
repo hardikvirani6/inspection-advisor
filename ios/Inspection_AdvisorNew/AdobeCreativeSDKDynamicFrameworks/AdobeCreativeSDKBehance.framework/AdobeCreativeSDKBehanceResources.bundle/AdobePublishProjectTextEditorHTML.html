@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+  <head>
+    <style type="text/css">
+      p, body { 
+        margin: 0px; 
+      }
+
+      /* We want transparent background so background color changes
+         in the project editor would shine through */
+      body {
+        background-color: transparent;
+      }
+
+      /* Fixes a bug where changing text size creates overlapping text */
+      span {
+        line-height: 1.4em;
+      }
+      
+      .bold { font-weight: bold; }
+      .italic { font-style: italic; }
+      .underline { text-decoration: underline; }
+            
+      /* Below is CSS that is the default for a project we are creating 
+         Can be found at the top of the website HTML of their project editor. 
+      */
+      .title { font-family: arial,helvetica,sans-serif;font-weight: bold;font-style: normal;text-decoration: none;line-height: 1.1em;font-size: 36px;color: #191919;text-align: left; }
+      .sub-title { font-family: arial,helvetica,sans-serif;font-weight: normal;font-style: normal;text-decoration: none;line-height: 1.4em;font-size: 20px;color: #a4a4a4;text-align: left; }
+      .editor-text .main-text,.main-text { font-family: arial,helvetica,sans-serif;font-weight: normal;font-style: normal;text-decoration: none;line-height: 1.4em;font-size: 20px;color: #696969;text-align: left; }
+      .caption, #project-modules .caption-text-wrap { font-family: arial,helvetica,sans-serif;font-weight: normal;font-style: italic;text-decoration: none;line-height: 1.4em;font-size: 14px;color: #a4a4a4;text-align: left; }
+      .caption-text-wrap a { font-size: 14px !important; }
+      .main-text a { font-family: arial,helvetica,sans-serif;font-weight: normal;font-style: normal;text-decoration: none;line-height: 1.4em;font-size: 12px;color: #1769FF;text-align: left; }
+            
+            
+      /* Below we insert any custom CSS for a project we are editing. 
+         DO NOT remove the 'CUSTOM_CSS' comment. It will be string-replaced
+         if necessary.
+      */
+      /*EDIT_PROJECT_CSS*/            
+    </style>
+  </head>
+  <body>
+    <div id="container" class="main-text" spellcheck="false" contenteditable="true"></div>
+
+    <script>
+        @ios_textEditorJavaScript
+    </script>        
+    <script>
+      window
+        .setup(@ios_config)
+        .then(function(TextEditor) {
+          var editor = new TextEditor('container');
+          window.textEditor = editor
+          window.textEditor._normalizeRect = function() { }
+
+          function setupWebViewJavascriptBridge(callback) {
+            if (window.WebViewJavascriptBridge) { return callback(WebViewJavascriptBridge); }
+            if (window.WVJBCallbacks) { return window.WVJBCallbacks.push(callback); }
+            window.WVJBCallbacks = [callback];
+            var WVJBIframe = document.createElement('iframe');
+            WVJBIframe.style.display = 'none';
+            WVJBIframe.src = 'wvjbscheme://__BRIDGE_LOADED__';
+            document.documentElement.appendChild(WVJBIframe);
+            setTimeout(function() {
+              document.documentElement.removeChild(WVJBIframe);
+            }, 0);
+          };
+
+          function setupCustomWebViewJavascriptBridgeEvents(bridge) {
+            var noop = function() {};
+
+            function reportTextDidChangeEvent() {
+              var htmlString = editor.getData();
+              bridge.callHandler('textDidChange', htmlString, noop);
+            }
+
+            editor.on('loaded', function() {
+              bridge.callHandler('textEditorDidLoad', null, noop);
+            });
+
+            editor.on('focus', function() {
+              bridge.callHandler('didFocus', null, noop);
+            });
+
+            editor.on('blur', function() {
+              bridge.callHandler('didBlur', null, noop);
+            });
+
+            editor.on('stateUpdated', function() {
+              reportTextDidChangeEvent();
+              bridge.callHandler('stateUpdated', null, noop);
+            });
+
+            document.addEventListener('selectionchange', function() {
+              reportTextDidChangeEvent();
+              bridge.callHandler('didChangeSelection', editor.hasSelection(), noop);
+            });
+
+            bridge.registerHandler('setHTMLText', function(data, responseCallback) {
+              editor.setData(data);
+              responseCallback(null);
+            });
+
+            editor.on('keyup', function() {
+              reportTextDidChangeEvent();
+              bridge.callHandler('didPressKey', null, noop);
+            });
+          }
+
+          function setupAPI() {
+            var savedBookmarks;
+
+            window.getHeight = function() {
+              return document.body.offsetHeight;
+            }
+
+            window.placeCaretAtEndOfTextEditor = function() {
+              editor.selectEditEnd();
+            }
+
+            window.saveSelection = function() {
+              savedBookmarks = editor.createSelectionBookmarks();
+            }
+
+            window.selectSavedSelection = function() {
+              if (!savedBookmarks) return;
+              editor.selectBookmarks(savedBookmarks);
+            }
+          }
+
+          setupWebViewJavascriptBridge(function(bridge) {
+            setupAPI();
+            setupCustomWebViewJavascriptBridgeEvents(bridge);
+          });
+        });
+    </script>   
+  </body>
+</html>

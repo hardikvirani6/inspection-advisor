@@ -1,0 +1,6 @@
+framework module AdobeCreativeSDKAssetModel {
+  umbrella header "AdobeCreativeSDKAssetModel.h"
+
+  export *
+  module * { export * }
+}

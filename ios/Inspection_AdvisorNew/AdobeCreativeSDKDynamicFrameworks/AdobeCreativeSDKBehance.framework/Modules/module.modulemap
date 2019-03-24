@@ -1,0 +1,6 @@
+framework module AdobeCreativeSDKBehance {
+  umbrella header "AdobeCreativeSDKBehance.h"
+
+  export *
+  module * { export * }
+}
